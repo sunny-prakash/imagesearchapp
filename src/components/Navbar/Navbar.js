@@ -6,7 +6,7 @@ export default function Navbar({ handleChange, searchInput }) {
         <div className="searchnav">
             <h1>{"Search Photos"}</h1>
             <form>
-                <input value={searchInput} onChange={handleChange} className="search-input" type="text" placeholder="Search Images" />
+                <input value={searchInput} onChange={handleChange} className="search-input" type="text" placeholder="  Search Images" />
             </form>
         </div>
     );

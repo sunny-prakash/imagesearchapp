@@ -6,11 +6,12 @@
     left: 0;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 50;
+    bottom: 0;
 }
 
 .popup--content {
-    width: 60%;
-    height: 400px;
+    width: 50vw;
+    height: auto;
     background-color: white;
     border-radius: 8px;
     position: relative;
@@ -21,8 +22,13 @@
 
 .popup--close {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     position: absolute;
     right: 20px;
     cursor: pointer;
+    color: red;
+}
+
+.image--container {
+    margin-top: 2rem;
 }
