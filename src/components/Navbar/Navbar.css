@@ -1,0 +1,26 @@
+.searchnav {
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchnav h1 {
+    margin: 0;
+}
+
+.search-input {
+    margin: 10px 0;
+    width: 30vw;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+}
+
+.search-input:active {
+    border: none;
+}
