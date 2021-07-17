@@ -13,8 +13,8 @@ function App() {
 
     const handleChange = (e) => {
         let input = e.target.value;
-        if (input === "") return;
         setSearchInput(input);
+        if (input === "") return;
         let url = `https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=5f2b1a283ccd6817ecc41a0647ea5250&text=${input}&format=json&nojsoncallback=1`;
         fetchData(url);
     };
